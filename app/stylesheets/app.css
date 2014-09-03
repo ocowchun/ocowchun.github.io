@@ -1,0 +1,96 @@
+* {
+	box-sizing: border-box;
+}
+
+/*TYPOGRAPHY*/
+body{
+	color: #2e2e2e;
+	font: 16px/24px "Helvetica Neue",Arial,sans-serif
+}
+
+h1,h3{
+	font-family: "Georgia",serif;
+	font-weight: 400;
+}
+
+h1{
+	font-size: 55px;
+}
+
+h3{
+	font-size: 32 px;
+}
+
+h4{
+	color: #5c5d60;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+p{
+	margin-bottom: 24px;
+}
+
+a{
+	color: #f46151;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:active{
+	color: blue;
+}
+
+/*GENERAL Layout RULES*/
+
+.cotainer{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.column-half{
+	margin: 0 12px 24px 12px;
+	width:576px;
+	float: left;
+}
+
+.row {
+	overflow: hidden;
+}
+
+/*HEADER*/
+
+.header-homepage{
+	/*background: url('../images/header.jpg') 0 0 no-repeat;*/
+	margin: 0 auto 0 auto;
+}
+
+.header-contents{
+	text-align: center;
+}
+.top-cotainer{
+	clear: both;
+	height: 30px;
+	margin: 10px;
+}
+.top-cotainer nav{
+	float: right;
+}
+.top-cotainer li{
+	display: inline;
+	margin-left: 30px;
+	list-style: none;
+	font-size: 18px;
+}
+.top-cotainer ul{
+	margin: 0px;
+	line-height: 30px;
+}
+
+a.logo{
+	float: left;
+	line-height: 30px;
+}

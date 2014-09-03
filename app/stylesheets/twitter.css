@@ -1,0 +1,96 @@
+body{
+	padding-top: 50px;
+
+	background-color: #6fcdf1;
+}
+
+.panel-default{
+	margin-top: 10px;
+}
+
+.logo{
+	display: inline-block;
+	margin-top: 20px;
+}
+
+li{
+	list-style: none;
+}
+
+.user-infos li{
+	margin-left: 10px;
+}
+
+.user-infos li span{
+	display: block;
+}
+
+.inline{
+	display: inline-block;
+}
+
+
+.user-name{
+	display: block;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+#timeline{
+	margin-top: 10px;
+}
+
+#content-main-heading{
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.twitter-id{
+	color: #898989;
+}
+
+.timestamp{
+	color: #898989;
+}
+
+.more{
+	color: #898989;
+}
+
+.item-action{
+	margin-left: 10px;
+	font-size: 12px;
+	color:  #eaeaea;
+}
+
+li.list-group-item:hover{
+	background-color: #eaeaea;
+}
+li.list-group-item:hover .item-action{
+	color: #979797;
+}
+
+
+.recommend-users>.header span{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.recommend-users>.header a{
+	font-size: 12px;
+}
+#dashboard-right{
+	margin-top: 10px;
+}
+
+.follow-btn span{
+margin-right: 5px;
+}
+
+#find-people-you-known span{
+margin-right: 5px;
+}
+
+#links a{
+	font-size: 12px;
+}

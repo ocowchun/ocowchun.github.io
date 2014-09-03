@@ -1,0 +1,16 @@
+.cotainer{
+	background-color: #ccc;
+	margin-right: 50px;
+	margin-left: 50px;
+	text-align: center;
+
+}
+.cotainer p{
+	text-align: center;
+}
+
+.cotainer a{
+	/*display: block;*/
+
+
+}
