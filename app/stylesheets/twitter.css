@@ -75,6 +75,11 @@ ul.user-infos{
 }
 
 
+/*Trends*/
+.trend-tags p{
+	margin-bottom: 0px;
+}
+/*end Trends*/
 .user-name{
 	display: block;
 	font-weight: 700;
