@@ -17,16 +17,61 @@ li{
 	list-style: none;
 }
 
+div.user-dashboard{
+	border: none;
+}
+.user-dashboard .panel-heading{
+	background-color: #0084B4;
+	height: 95px;
+}
+
+
+ul.user-infos{
+	display: table;
+	padding-left: 0;
+}
 .user-infos li{
 	margin-left: 10px;
+	display: table-cell;
+	width: 1%;
+}
+
+.user-infos a{
+	text-decoration: none;
+}
+
+.statLabel{
+	color: #979797;
+}
+
+.statValue{
+	font-size: 18px;
+	font-weight: 500;
 }
 
 .user-infos li span{
 	display: block;
 }
 
-.inline{
+.current-user-avatar{
 	display: inline-block;
+}
+
+
+.current-user-avatar img{
+	margin-top: -70px;
+
+}
+
+.current-user {
+	display: inline-block;
+}
+
+#new-tweet{
+	padding: 10px;
+	background-color: #E5F2F7;
+	border-radius: 4px;
+	height: 55px;
 }
 
 
@@ -84,11 +129,11 @@ li.list-group-item:hover .item-action{
 }
 
 .follow-btn span{
-margin-right: 5px;
+	margin-right: 5px;
 }
 
 #find-people-you-known span{
-margin-right: 5px;
+	margin-right: 5px;
 }
 
 #links a{

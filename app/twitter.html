@@ -45,13 +45,14 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-3 dashboard">
-				<div class="panel panel-default">
+				<div class="panel panel-default user-dashboard">
 					<div class="panel-heading"></div>
 					<div class="panel-body">
-						<div class="inline">
-							<img src="http://www.gravatar.com/avatar/a7da45a4a1667717721e9a81d66845ff.png" alt="">
-						</div>
-						<div class="inline">
+						<a href="#" class="current-user-avatar">
+							<img src="http://www.gravatar.com/avatar/a7da45a4a1667717721e9a81d66845ff.png" alt="" class="img-rounded">
+
+						</a>
+						<div class="current-user">
 							
 							<a href="#" class="user-name">葉顆顆</a>
 							<a href="#">@ocowchun</a>
@@ -59,20 +60,27 @@
 						</div>
 						<div>
 							<ul class="user-infos ">
-								<li class="pull-left"><a href="#">
-									<span>推文</span>
-									<span>12</span>
+								<li class=""><a href="#">
+									<span class="statLabel">推文</span>
+									<span class="statValue">12</span>
 								</a></li>
-								<li class="pull-left"><a href="#">
-									<span>正在關注</span>
-									<span>2</span>
+								<li class=""><a href="#">
+									<span class="statLabel">正在關注</span>
+									<span class="statValue">2</span>
 								</a></li>
-								<li class="pull-left"><a href="#">
-									<span>跟隨者</span>
-									<span>4</span>
+								<li class=""><a href="#">
+									<span class="statLabel">跟隨者</span>
+									<span class="statValue">4</span>
 								</a></li>
 							</ul>
 						</div>
+					</div>
+					<div class="pannel-footer" id="new-tweet">
+						<form action="" role="form">
+							<div class="form-group">
+								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="撰寫新推文...">
+							</div>
+						</form>
 					</div>
 				</div>
 			</div> <!-- end dashboard -->
