@@ -22,8 +22,9 @@ $(function() {
 	var intervalID;
 
 	function slotGo() {
-		$list.css("margin-top", "0px");		
-		var limit = 82 * Math.floor(20 + Math.random() * 20);
+		var liHeight = $list.find('li').first().height();
+		$list.css("margin-top", "0px");
+		var limit = liHeight * Math.floor(20 + Math.random() * 20);
 		var position = "-" + limit + "px";
 		$list.animate({
 			'margin-top': position
