@@ -46,7 +46,7 @@
 
 	var $ = __webpack_require__(1);
 	var $screen = $('#screen');
-	var currentText = '';
+	var currentText = '0';
 	var $btnAdd = $('#btnAdd');
 	var $btnMinus = $('#btnMinus');
 	var $btnProduct = $('#btnProduct');
@@ -129,10 +129,10 @@
 	});
 
 	function clear() {
-		currentText = '';
+		currentText = '0';
 		currentOperator = '';
 		prevNumber = 0;
-		$screen.text(0);
+		$screen.text(currentText);
 	}
 
 	function excuteCalculate() {
