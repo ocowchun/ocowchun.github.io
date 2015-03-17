@@ -1,0 +1,14 @@
+#screen{
+	font-size: 40px;
+	width: 440px;
+	text-align: right;
+}
+
+button{
+	/*width: 100px;*/
+	font-size: 24px;
+	margin: 5px;
+	width: 100px;
+	height: 100px;
+}
+

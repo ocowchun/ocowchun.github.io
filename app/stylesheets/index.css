@@ -13,3 +13,19 @@ body {
 	font-size: 16px;
 	margin-top: 5px;
 }
+
+.shot{
+	background-color: white;
+	border-radius: 4px 4px 0 0;
+}
+
+.item-title{
+	font-size: 22px;
+	color: black;
+
+}
+
+.item-title:hover{
+   text-decoration: none;
+   color: rgb(245, 190, 0);
+}
