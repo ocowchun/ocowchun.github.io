@@ -5,10 +5,26 @@
 }
 
 button{
-	/*width: 100px;*/
 	font-size: 24px;
 	margin: 5px;
 	width: 100px;
 	height: 100px;
 }
 
+.btn{
+	border: solid 2px black;
+	background-color: rgb(224,224,224);
+}
+
+.btn-operator{
+	border: solid 2px black;
+	background-color: rgb(255,142,0);
+}
+
+.active{
+	border: solid 5px black;
+}
+
+button:focus{
+	outline: none;
+}
